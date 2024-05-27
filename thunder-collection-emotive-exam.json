@@ -1,0 +1,59 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "emotive-collection",
+    "collectionId": "48bd3153-8aae-4d1d-95ee-7d66711d83f0",
+    "dateExported": "2024-05-27T10:28:42.233Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "75d77490-25a6-4048-a556-ca835a35ba76",
+            "colId": "48bd3153-8aae-4d1d-95ee-7d66711d83f0",
+            "containerId": "",
+            "name": "SendVerificationToken",
+            "url": "localhost:8000/api/two-factor-auth/send-verification-token/",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-05-26T18:32:06.395Z",
+            "modified": "2024-05-27T10:23:23.150Z",
+            "headers": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "phone_number",
+                        "value": "+5584998545520"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "a7dfdd3c-9286-4c1c-9646-b08a1e9355d9",
+            "colId": "48bd3153-8aae-4d1d-95ee-7d66711d83f0",
+            "containerId": "",
+            "name": "CheckVerificationToken",
+            "url": "localhost:8000/api/two-factor-auth/check-verification-token/",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-05-26T18:38:44.493Z",
+            "modified": "2024-05-27T10:19:26.929Z",
+            "headers": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "phone_number",
+                        "value": "+5584998545520"
+                    },
+                    {
+                        "name": "code",
+                        "value": "815307"
+                    }
+                ]
+            }
+        }
+    ],
+    "ref": "EG1bfw6Yox6LIVI4U3B73LYRmWlGLRNGzhobQutXMLSIZKpEvPtVFcjYHM3MpgOuYQZamAA3z7aohRcudva-dw"
+}
